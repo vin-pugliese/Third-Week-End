@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(157,188,94,255);
+}
+
+.descrizione{
+    width: 80%;
+    margin-left: 3%; 
+    margin-top: 2%;
+}
+
+.descrizione h2{
+    font-size: xx-large;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.form{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(156,188,43,255);
+}
+
+
+.form form div{
+    background-color: rgba(186,208,108,255);
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding: 5px 5px 5px 15px;
+    justify-content: left;
+}
+
+.form div h4{
+    margin-left: 8px;
+}
+
+.form form ::placeholder{
+    font-style: italic;
+    
+}
+
+.altro ::placeholder{
+    color:black;
+}
+
+.form form input{
+    clear:both;
+    margin-left: 40%;
+    
+}
+
+.form div input{
+    display:inline-block;
+    width:30%;
+    text-align:left;
+    
+}
+
+.form div label{
+    display:inline-block;
+    width:65%;
+    text-align:left;
+    
+}
