@@ -1,62 +1,65 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Esercitazione form - Randstad Academy</title>
-<script type="text/javascript" src="index.js"></script>
-<link rel="stylesheet" type="text/css" href="index.css">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Esercitazione form - Randstad Academy</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
+
 <body>
 
-<h3 class="title">Randstad Academy - Validation exercise</h1>
+    <h3 class="title">Randstad Academy - Validation exercise</h1>
 
 
-<div id="container">
-<form name="esform" action="https://www.google.com/" method="get" onsubmit="return check()">
-    <p>Cognome: <input type="text" id="lastname"  maxlength="40"/></p>
-    
-    <p>Nome: <input type="text" id="name"  maxlength="30"/></p>
-    
-    <p>Matricola: <textarea id="matricola" maxlength="12"></textarea></p>
-    
-    <p>Regione <select id="regione" >
-        <option value="--">--</option>
-        <option value="abruzzo">Abruzzo</option>
-        <option value="basilicata">Basilicata</option>
-        <option value="calabria">Calabria</option>
-        <option value="campania">Campania</option>
-        <option value="emiliaromagna">Emilia Romagna</option>
-        <option value="friuli-venezia-giulia">Friuli-Venezia Giulia</option>
-        <option value="lazio">Lazio</option>
-        <option value="liguria">Liguria</option>
-        <option value="lombardia">Lombardia</option>
-        <option value="marche">Marche</option>
-        <option value="molise">Molise</option>
-        <option value="piemonte">Piemonte</option>
-        <option value="puglia">Puglia</option>
-        <option value="sardegna">Sardegna</option>
-        <option value="sicilia">Sicilia</option>
-        <option value="toscana">Toscana</option>
-        <option value="trentino-alto adige">Trentino-Alto Adige</option>
-        <option value="umbria">Umbria</option>
-        <option value="valle d'aosta">Valle d'Aosta</option>
-        <option value="veneto">Veneto</option>
-    </select></p>    
+        <div id="container">
+            <form name="esform" action="https://www.google.com/" method="get" onsubmit="return check()">
+                <p>Cognome: <input type="text" id="lastname" maxlength="40" /></p>
 
-    <p>E-mail: <textarea id="email" maxlength="30"></textarea></p>
-    
-    <p>Telefon: <textarea id="telefono" maxlength="15"></textarea></p> 
-    
-    <p>Richieste particolari: <textarea name="richieste" cols="60" rows="12"></textarea></p>              
-    
-    <input type="submit" value="ok" />
-    
-    <input type="reset" value="annulla" />
-</form>
-</div>
+                <p>Nome: <input type="text" id="name" maxlength="30" /></p>
+
+                <p>Matricola: <textarea id="matricola" maxlength="12"></textarea></p>
+
+                <p>Regione <select id="regione">
+                        <option value="--">--</option>
+                        <option value="abruzzo">Abruzzo</option>
+                        <option value="basilicata">Basilicata</option>
+                        <option value="calabria">Calabria</option>
+                        <option value="campania">Campania</option>
+                        <option value="emiliaromagna">Emilia Romagna</option>
+                        <option value="friuli-venezia-giulia">Friuli-Venezia Giulia</option>
+                        <option value="lazio">Lazio</option>
+                        <option value="liguria">Liguria</option>
+                        <option value="lombardia">Lombardia</option>
+                        <option value="marche">Marche</option>
+                        <option value="molise">Molise</option>
+                        <option value="piemonte">Piemonte</option>
+                        <option value="puglia">Puglia</option>
+                        <option value="sardegna">Sardegna</option>
+                        <option value="sicilia">Sicilia</option>
+                        <option value="toscana">Toscana</option>
+                        <option value="trentino-alto adige">Trentino-Alto Adige</option>
+                        <option value="umbria">Umbria</option>
+                        <option value="valle d'aosta">Valle d'Aosta</option>
+                        <option value="veneto">Veneto</option>
+                    </select></p>
+
+                <p>E-mail: <textarea id="email" maxlength="30"></textarea></p>
+
+                <p>Telefon: <textarea id="telefono" maxlength="15"></textarea></p>
+
+                <p>Richieste particolari: <textarea name="richieste" cols="60" rows="12"></textarea></p>
+
+                <input type="submit" value="ok" />
+
+                <input type="reset" value="annulla" />
+            </form>
+        </div>
 
 
 </body>
+
 </html>
