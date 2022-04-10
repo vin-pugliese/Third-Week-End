@@ -1,5 +1,6 @@
 body{
     background-color: rgba(157,188,94,255);
+    font-size: large;
 }
 
 .descrizione{
@@ -54,11 +55,16 @@ body{
     
 }
 
+
 .form div input{
     display:inline-block;
     width:30%;
     text-align:left;
     
+}
+
+.form form input[type=radio]{
+    width:auto;
 }
 
 .form div label{
