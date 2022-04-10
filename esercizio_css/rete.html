@@ -4,14 +4,141 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Esercitazione css - Randstad Academy</title>
-<script type="text/javascript" src="index.js"></script>
-<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="rete.css">
 
 </head>
 <body>
 
-    <h2 class="title">Questionario di raccolta dati per creare una rete</h2>
+    <section class="descrizione">
+        <h2 class="title">Questionario di raccolta dati per creare una rete</h2>
+    
+        <div >
+            <p>
+                I dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima
+                di mettersi alle prese con la realizzazione di una rete.
+                E' in primo luogo necessario capire le funzioni della rete, a cosa è dedicata?
+                Quanto deve essere grande? Sappiamo già che ci sarà un solo modem/router?
+                Oppure serve qualcosa di più complesso? Quindi è necessario capire quanti e quali
+                sono i device che apparterrano alla rete? quali sono le caratteristiche di questi
+                device? infine una volta raccolti tutti i dati si può finalmente partire con la
+                progettazione della rete.
+            </p>
+        </div>
+    </section>
+    <div class="container">
     
 
+    <section class="form">
+
+        <div>
+        <h4 class="step">
+            Step 1 : i Dati della rete
+        </h4>
+
+        <form class="anagrafica">
+            <div>
+            <label for="name">Nome e cognome del responsabile</label> 
+            <input type="text" id="name" maxlength="80" required placeholder="Nome e cognome"/>
+        </div>
+
+        <div>
+            <label for="indirizzo">Indirizzo</label>
+            <input type="text" id="indirizzo" maxlength="80" required placeholder="Indirizzo"/>
+        </div>
+
+        <div>
+            <label for="n_sedi">Numero delle sedi dell'azienda</label>
+            <input type="text" id="n_sedi" maxlength="80" required placeholder="sedi"/>
+        </div>
+        <div>
+            <label for="data">Data di compilazione</label>
+            <input type="text" id="data" maxlength="80" required placeholder="gg/mm/aaaa"/>
+        </div>
+        </form>
+    </div>
+
+    <div>
+        <h4 class="step">
+            Step 2 : Dimensioni della rete in base alla tipologia
+        </h4>
+
+        <form class="tipologia">
+            <div>
+            <label for="LAN">LAN</label>
+            <input type="checkbox" id="LAN" name="tipo" required/>
+        </div>
+        <div>
+            <label for="MAN">MAN</label>
+            <input type="checkbox" id="MAN" name="tipo" required/>
+        </div>
+        <div>
+            <label for="WAN">WAN</label>
+            <input type="checkbox" id="WAN" name="tipo" required/>
+        </div>
+        <div>
+            <label for="altro">Altro</label>
+            <input type="text" id="altro" maxlength="80" required placeholder="Specificare"/>
+        </div>
+        </form>
+    </div>
+
+    <div>
+
+    
+        <h4 class="step">
+            Step 3 : E' già nota la forma della rete (topologia)
+        </h4>
+
+        <form class="forma">
+            <div>
+            <label for="stella">A stella</label>
+            <input type="radio" id="stella" name="forma" required/>
+        </div>
+        <div>
+            <label for="bus">A bus</label>
+            <input type="radio" id="bus" name="forma" required/>
+        </div>
+        <div>
+            <label for="albero">Ad albero</label>
+            <input type="radio" id="albero" name="forma" required/>
+        </div>
+        <div>
+            <label for="altro">Altro</label>
+            <input type="text" id="altro" maxlength="80" required placeholder="Specificare"/>
+        </div>
+        </form>
+
+        <h4 class="step">
+            Step 4 : Caratteristiche del PC
+        </h4>
+
+        <div class="datiPC"></div>
+
+        <form class="anagrafica">
+            <div>
+            <label for="processore">Processore</label>
+            <input type="text" id="processore" maxlength="80" required placeholder="Processore"/>
+        </div>
+        <div>
+            <label for="ram">RAM</label>
+            <input type="text" id="ram" maxlength="80" required placeholder="ram"/>
+        </div>
+            <div>
+            <label for="c">C</label>
+            <input type="text" id="c" maxlength="80" required placeholder="c"/>
+        </div>
+        <div>
+            <label for="d">D</label>
+            <input type="text" id="d" maxlength="80" required placeholder="d"/>
+        </div>
+        </form>
+    </div>
+
+
+
+
+
+    </section>
+</div>
 </body>
 </html>
